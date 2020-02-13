@@ -20,7 +20,7 @@ const AppNavbar = (props) => {
   const content = (
       <Navbar color="dark" dark expand="sm" className="mb-5">
         <Container>
-          <NavbarBrand href="/">Shopping List</NavbarBrand>
+          <NavbarBrand href="/">Shopping List App</NavbarBrand>
           <NavbarToggler onClick={toggle}/>
           <Collapse isOpen={isOpen} navbar>
             <Nav className="ml-auto" navbar>
